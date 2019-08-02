@@ -1,2 +1,1 @@
-# Example
-Swift Tips
+
