@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		B7FBA35A22F42A94006E4704 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FBA35922F42A94006E4704 /* Date+Extension.swift */; };
 		B7FBA35C22F42AAA006E4704 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FBA35B22F42AAA006E4704 /* String+Extension.swift */; };
+		B7FBA35F22F42B4D006E4704 /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FBA35E22F42B4D006E4704 /* UISearchBar+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7FBA34322F42A13006E4704 /* SwiftTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FBA35922F42A94006E4704 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		B7FBA35B22F42AAA006E4704 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B7FBA35E22F42B4D006E4704 /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,19 @@
 		B7FBA35822F42A7C006E4704 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B7FBA35D22F42B3B006E4704 /* UIKit */,
 				B7FBA35922F42A94006E4704 /* Date+Extension.swift */,
 				B7FBA35B22F42AAA006E4704 /* String+Extension.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B7FBA35D22F42B3B006E4704 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B7FBA35E22F42B4D006E4704 /* UISearchBar+Extension.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FBA35F22F42B4D006E4704 /* UISearchBar+Extension.swift in Sources */,
 				B7FBA35C22F42AAA006E4704 /* String+Extension.swift in Sources */,
 				B7FBA35A22F42A94006E4704 /* Date+Extension.swift in Sources */,
 			);
