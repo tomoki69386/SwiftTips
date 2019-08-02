@@ -35,9 +35,9 @@
 		B7FBA33A22F42A13006E4704 = {
 			isa = PBXGroup;
 			children = (
-				B7FBA36022F42B88006E4704 /* README.md */,
-				B7FBA34522F42A13006E4704 /* SwiftTips */,
 				B7FBA34422F42A13006E4704 /* Products */,
+				B7FBA34522F42A13006E4704 /* SwiftTips */,
+				B7FBA36022F42B88006E4704 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +65,7 @@
 				B7FBA35B22F42AAA006E4704 /* String+Extension.swift */,
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B7FBA35D22F42B3B006E4704 /* UIKit */ = {
